@@ -38,7 +38,7 @@ Visit the Hugo website!">
     
   
   
-  <link rel="stylesheet" href="http://localhost:1313/css/styles.e9b579c0f94b3e29ebcfb36f2d60e84d55e1963c282df9714c8792ad392c06071e4f2a146017ba54e29bbf4b29d37b01b8fd6ea753df4de421fb8397cc93313f.css" integrity="sha512-6bV5wPlLPinrz7NvLWDoTVXhljwoLflxTIeSrTksBgceTyoUYBe6VOKbv0sp03sBuP1up1PfTeQh&#43;4OXzJMxPw=="> 
+  <link rel="stylesheet" href="http://localhost:1313/css/styles.7c754dee4bfc873743b12288cf94eadcfd3bee1f2cff5a106753b8047879ac5195c8d8ad90f6d73f12e9c841696c51a0abdeae8394e3eb3079f310f418ddf9ec.css" integrity="sha512-fHVN7kv8hzdDsSKIz5Tq3P077h8s/1oQZ1O4BHh5rFGVyNitkPbXPxLpyEFpbFGgq96ug5Tj6zB58xD0GN357A=="> 
 
   
   
@@ -309,7 +309,19 @@ Visit the Hugo website!">
 
     </div>
 
-    
+    <div id="actions-footer">
+      
+        <a id="menu-toggle" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;" aria-label="Menu">
+          <i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        
+        <a id="toc-toggle" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;" aria-label="TOC">
+          <i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        
+        <a id="share-toggle" class="icon" href="#" onclick="$('#share-footer').toggle();return false;" aria-label="Share">
+          <i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" aria-label="Top of Page">
+          <i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
 
   </div>
 </div>
