@@ -2,18 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gebrabbel</title>
-    <link>https://example.org/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Gebrabbel</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Martin C. Pierre</copyright>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 May 2024 01:17:23 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://example.org/about/</link>
+      <title>I&#39;ve never blogged before, but I&#39;ve been told by multiple people that it&#39;s supposed to be good for me.</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sat, 25 May 2024 01:17:23 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>This is just me babbling around, so it looks and feels like I did something And I think this is a big part</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.org/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>Yes - the name is French. Yes - the website’s name is German. Yes - most of the content will be in English. Maybe with some German interspersed depending on the topics - we’ll see.</description>
     </item>
   </channel>

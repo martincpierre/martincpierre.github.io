@@ -85,14 +85,11 @@ weight = 4
   # the value of name should be an valid font awesome icon name (brands type)
   # https://fontawesome.com/icons?d=gallery&s=brands
   [[params.social]]
-    name = "github"
-    link = "https://github.com/gohugoio"
-  [[params.social]]
-    name = "linkedin"
-    link = "https://www.linkedin.com/company/github/"
+    name = "mastodon"
+    link = "https://mastodon.social/@martincpierre"
   [[params.social]]
     name = "email"
-    link = "example@example.com"  # no need for "mailto:" in the head
+    link = "martincpierre@gmail.com"
 
 [markup.goldmark.renderer]
       unsafe = true
